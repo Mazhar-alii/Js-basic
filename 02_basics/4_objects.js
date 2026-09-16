@@ -34,6 +34,19 @@ const obj4 = {...obj1, ...obj2, ...obj3}
 // console.log(Object.entries(instaUser));
 // console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
+// **************** Destructuring ****************
+
+const course = {
+    coursename: "JavaScript",
+    courseprice: 999,
+    courseinstructor: "Sir.Iftikhar Thakur"
+}
+
+// course.courseinstructor
+
+const {courseinstructor: instructor} = course
+
+console.log(instructor)
 
 
 // node 02_basics/4_objects.js
